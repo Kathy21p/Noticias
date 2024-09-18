@@ -1,0 +1,234 @@
+/* General */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f9f0; /* Verde pastel suave */
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #a5d6a7; /* Verde pastel */
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+}
+
+.user-actions a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.login-btn {
+  background-color: #81c784; /* Verde pastel */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.social-icon {
+  background-color: #66bb6a; /* Verde pastel más oscuro */
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+}
+
+/* Banner principal */
+.main-banner {
+  position: relative;
+  height: 400px;
+  background-color: #dcedc8; /* Verde pastel muy claro */
+}
+
+.banner-item {
+  position: relative;
+  height: 100%;
+}
+
+.banner-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.banner-info h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.banner-info p {
+  font-size: 16px;
+}
+
+.banner-info .btn {
+  display: inline-block;
+  background-color: #81c784;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+/* Noticias destacadas */
+.news {
+  padding: 20px;
+  background-color: #f1f8e9; /* Verde pastel claro */
+}
+
+.news h2 {
+  font-size: 28px;
+  color: #388e3c;
+  margin-bottom: 20px;
+}
+
+.news-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.news-card {
+  background-color: white;
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.news-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.news-card h3 {
+  margin: 15px 0;
+  color: #388e3c;
+}
+
+.news-card p {
+  color: #666;
+}
+
+.news-card .btn {
+  display: inline-block;
+  background-color: #81c784;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+/* Resultados en vivo */
+.live-results {
+  padding: 20px;
+  background-color: #a5d6a7;
+  color: white;
+  text-align: center;
+}
+
+.results-bar p {
+  margin: 5px 0;
+}
+
+/* Suscripción */
+.newsletter {
+  padding: 20px;
+  background-color: #dcedc8;
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 24px;
+  color: #388e3c;
+  margin-bottom: 15px;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #66bb6a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #388e3c;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: #81c784;
+  color: white;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
